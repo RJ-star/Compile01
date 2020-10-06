@@ -72,7 +72,10 @@ public class Compile {
                 System.out.println(check(temp));
             }
 
-            else System.out.println("Unknown");
+            else {
+                System.out.println("Unknown");
+                break;
+            }
         }
     }
 
