@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 public class Compile {
     public static void main(String[] args) throws IOException {
 
-        FileInputStream inputStream = new FileInputStream("C:/Users/蒋沛宇/Desktop/wenben.txt");
+        FileInputStream inputStream = new FileInputStream("args[0]);
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
 
         String string = "";
